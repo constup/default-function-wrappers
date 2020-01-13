@@ -1,0 +1,24 @@
+{
+    "name": "constup/default-function-wrappers",
+    "description": "Default PHP function wrappers.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Constup",
+            "email": "16638173+constup@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Constup\\DefaultFunctionWrappers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Constup\\DefaultFunctionWrappers\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
